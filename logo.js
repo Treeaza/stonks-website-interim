@@ -6,12 +6,7 @@ var index = 0;
 
 var ticker = setInterval(function () {
 	LOGO.src = logoFiles[index];
-
-	console.log(index);
-	console.log(logoFiles[index]);
-
 	index++;
-
 	if (index >= logoFiles.length) {
 		index = 0;
 	}
